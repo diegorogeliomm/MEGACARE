@@ -1,0 +1,328 @@
+:root{
+	--color-aqua:#00d9d9;
+	--color-titulos:#000;
+	--color-contenido: #2d2d2d;
+	--bg-header:#000;
+	--bg-footer:#222222;
+}
+body{
+	color:var(--color-contenido);
+}
+
+header{
+	background-color: var(--bg-header);
+	padding: 20px 0;
+}
+
+
+
+
+
+footer{
+	background-color: var(--bg-footer);
+	color: #888;
+	padding: 30px 0;
+	font-size: 13px;
+	font-weight: 600;
+	text-align: center;
+}
+footer p span{
+	color: var(--color-aqua);
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--title-color);
+}
+
+.carousel-image {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    bottom: 30%;
+	bottom: unset; 
+    top: 50%; 
+    left: 10%; 
+    transform: translateY(-50%); 
+    text-align: left; 
+    width: 50%; 
+}
+}
+
+
+.icon-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: var(--aqua);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.icon-circle i {
+    font-size: 2.5rem;
+    color: white;
+}
+
+#testimonials {
+    background-color: var(--bg-testimonials);
+    padding: 60px 0;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.doctor-card {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.doctor-card img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.carousel-image {
+    height: 70vh;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.025);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+}
+.service-item h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--title-color);
+}
+
+.service-content p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.icon-circle {
+    transition: transform 0.3s ease;
+}
+
+.icon-circle:hover {
+    transform: rotate(15deg);
+}
+
+.fa-3x {
+    font-size: 2.5em;
+}
+#services {
+    background-color: #f9f9f9; 
+}
+
+.service-item {
+    margin-bottom: 40px; 
+}
+
+.service-item h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem; 
+    color: var(--title-color);
+    margin-top: 0; 
+}
+
+.service-content p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin-top: 10px; 
+}
+
+
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #e0f7fa; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px; 
+    vertical-align: middle; 
+}
+
+.icon-circle i {
+    font-size: 1.5rem;
+    color: #00d9d9; 
+}
+
+
+@media (max-width: 768px) {
+    .service-item {
+        text-align: center; 
+    }
+    .icon-circle {
+        margin: 0 auto 10px; 
+        margin-right: 0; 
+    }
+}
+
+.carousel-image {
+    height: 70vh; 
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-caption {
+    bottom: 30%;
+    
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+}
+#about {
+    background-color: #f9f9f9; 
+}
+
+.about-image {
+    border-left: 4px solid #00d9d9; 
+    border-radius: 8px; 
+}
+
+.subheading {
+    font-size: 1.2rem; 
+    font-weight: 500;
+    margin-bottom: 5px; 
+}
+
+.subheading-line {
+    height: 2px; 
+    background-color: #00d9d9; 
+    width: 50px; 
+    margin-bottom: 20px;
+}
+
+.about-description {
+    font-size: 0.95rem; 
+    line-height: 1.6; 
+    margin-bottom: 15px; 
+}
+
+
+@media (max-width: 768px) {
+    .about-image {
+        margin-bottom: 20px; 
+    }
+}
+
+#testimonials {
+    background-color: #f9f9f9; 
+}
+
+.testimonial-item {
+    margin-top: 40px; 
+    text-align: center; 
+}
+
+.quotation-icon {
+    font-size: 2rem; 
+    color: white; 
+    background-color: #ccc; 
+    border-radius: 50%; 
+    width: 50px; 
+    height: 50px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin: 0 auto 20px; 
+}
+
+.testimonial-text {
+    font-style: italic; 
+    font-size: 1rem; 
+    line-height: 1.6; 
+    color: #777; 
+    margin-bottom: 20px; 
+}
+
+.testimonial-name {
+    font-weight: 700; 
+    text-transform: uppercase; 
+    margin-bottom: 10px; 
+}
+
+.rating {
+    display: flex;
+    justify-content: center; 
+}
+
+
+.fa-star {
+    font-size: 1.5rem; 
+    margin: 0 2px; 
+	color: #ffcc00;
+}.btn-make-inquiry {
+    background-color: #00d9d9; 
+    color: white; 
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    text-decoration: none; 
+    font-weight: 500; 
+    transition: background-color 0.3s ease; 
+}
+
+.btn-make-inquiry:hover {
+    background-color: #00b3b3; 
+}
+
+.btn-find-doctors {
+    background-color: white; 
+    color: black;
+    border: 1px solid #ccc; 
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    text-decoration: none; 
+    font-weight: 500; 
+    transition: background-color 0.3s ease; 
+}
+btn-find-doctors:hover {
+    background-color: #f0f0f0; 
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; 
+}
